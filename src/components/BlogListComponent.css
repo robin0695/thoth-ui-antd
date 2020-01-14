@@ -1,0 +1,21 @@
+.recommand_paper_item {
+  padding: 0 10px 0 10px;
+  border-right: 1px solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+}
+
+.recommand_paper_item:hover {
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.10);
+}
+
+.paper-list-title {
+  font-family: 'Times New Roman', Times, serif;
+  color: #0e0e0e !important;
+  font-size: 1.3em;
+}
+
+.paper-list-summary {
+  font-family: 'Times New Roman', Times, serif;
+  color: #0e0e0e;
+  font-size: 1.1em;
+}

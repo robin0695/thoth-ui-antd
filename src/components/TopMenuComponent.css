@@ -1,0 +1,30 @@
+.topmenu-search-box>input {
+  border: 0px;
+}
+
+.topmenu-title {
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1.5em;
+  margin: 10px;
+
+}
+
+.topmenu-logo {
+  margin: 5px;
+}
+
+/* .ant-input-affix-wrapper .ant-input:focus {
+  border: none;
+  border-bottom: 1px solid white !important;
+  box-shadow: none;
+} */
+.ant-input-affix-wrapper .ant-input:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.top-menu-item {
+  float: rigth;
+}

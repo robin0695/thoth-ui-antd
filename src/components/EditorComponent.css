@@ -1,0 +1,16 @@
+#root {
+  display: flex;
+  width: 1000px;
+  height: 1000px;
+  overflow: hidden;
+}
+
+.editor {
+  display: flex;
+  flex: 1;
+  background-color: #f4f6f8;
+}
+
+.editorBd {
+  flex: 1;
+}

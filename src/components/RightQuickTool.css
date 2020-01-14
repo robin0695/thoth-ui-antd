@@ -1,0 +1,9 @@
+.right-quick-tool-bar {
+  position: fixed;
+  top: 15vh;
+  left: 16.9vw;
+}
+
+.right-quick-tool-bar > button {
+  margin: 2px !important;
+}
