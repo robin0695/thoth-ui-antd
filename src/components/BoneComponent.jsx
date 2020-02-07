@@ -8,6 +8,7 @@ import { BlogPaperContentComponent } from './BlogPaperContentComponent.jsx'
 import store from '../store/index.js'
 import './BoneComponent.css'
 import { RightQuickTool } from './RightQuickTool.jsx'
+import { RightQuickMenu } from './RightQuickMenu.jsx'
 
 export class BoneComponent extends React.Component {
   constructor() {
@@ -31,16 +32,20 @@ export class BoneComponent extends React.Component {
           </Row>
         </Affix>
         <Row>
-          {/* <Col span={1}></Col>  */}
-          <Col span={4}>
-            {/* <BlogListComponent /> */}
-            <MyBoxComponent />
+          <Col span={1}></Col>
+          <Col span={7}>
+            <BlogListComponent />
+            {/* <MyBoxComponent /> */}
           </Col>
-          <Col span={13} className="blog-content-main">
+          <Col
+            span={13}
+            className="blog-content-main"
+            style={{ left: '33.333333vw' }}
+          >
             <BlogPaperContentComponent />
           </Col>
-          <Col>
-            <RightQuickTool />
+          <Col style={{ position: 'fixed', top: '95px', left: '87.5vw' }}>
+            <RightQuickMenu />
           </Col>
         </Row>
       </React.Fragment>
